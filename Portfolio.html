@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Jessy</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background: #00bcd4;
+            border: none;
+            padding: 10px 15px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #0097a7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Portfolio de Jessy</h1>
+    <p>Développeur passionné par la programmation et les jeux vidéo 💻🎮</p>
+</header>
+
+<section id="about">
+    <h2>À propos de moi</h2>
+    <p>
+        Bonjour ! Je m'appelle Jessy et je suis passionné par la programmation et les jeux vidéo.
+        Mon objectif est de faire de cette passion mon futur métier.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Mes Projets</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>Site Web – Jeux vidéo 2023</h3>
+            <p>
+                Site web réalisé en HTML et CSS présentant l’histoire du jeu vidéo,
+                les types de jeux, les entreprises du secteur,
+                les composants d’un PC gaming et les créateurs de contenu influents.
+            </p>
+            <p><strong>Language de Programmation :</strong> HTML, CSS</p>
+            <a href="Site HTML CSS.zip" download>
+                <button>Télécharger le projet</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Horloge Interactive</h3>
+            <p>
+                Application développée en Python permettant d’afficher l’heure en temps réel.
+                L’utilisateur peut ajouter ou retirer des heures et des minutes,
+                et modifier le format d’affichage.
+            </p>
+            <p><strong>Language de Programmation :</strong> Python</p>
+            <a href="Horloge.zip" download>
+                <button>Télécharger le projet</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Convertisseur Binaire</h3>
+            <p>
+                Application Python permettant de convertir des nombres décimaux en binaire,
+                en hexadécimal et inversement.
+            </p>
+            <p><strong>Language de Programmation :</strong> Python</p>
+            <a href="Convertisseur Binaire.zip" download>
+                <button>Télécharger le projet</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Éditeur Pixel Art</h3>
+            <p>
+                Application développée en Python permettant de modifier et personnaliser
+                des pixel arts prédéfinis.
+            </p>
+            <p><strong>Language de Programmation :</strong> Python</p>
+            <a href="Pixel Art.zip" download>
+                <button>Télécharger le projet</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Mini-jeu de Tri</h3>
+            <p>
+                Mini-jeu développé en Python dans lequel le joueur doit trier des billes
+                selon leur couleur.
+            </p>
+            <p><strong>Language de Programmation :</strong> Python</p>
+            <a href="Project 2.zip" download>
+                <button>Télécharger le projet</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Projet – Nuit du Code</h3>
+            <p>
+                Jeu développé dans le cadre de l’événement « La Nuit du Code »,
+                dont l’objectif est de créer un jeu en Python en 6 heures.
+                Version améliorée de mon exercice d’entraînement.
+            </p>
+            <p><strong>Language de Programmation :</strong> Python</p>
+            <a href="Exercice NDC 2026.zip" download>
+                <button>Télécharger le projet</button>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email : jessy_mak@outlook.com</p>
+</section>
+
+<footer>
+    © 2026 - Portfolio de Jessy
+</footer>
+
+</body>
+</html>
